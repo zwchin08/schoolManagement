@@ -23,8 +23,8 @@ public class AliOssUtil {
     private static final String ENDPOINT = "https://oss-ap-northeast-1.aliyuncs.com";
     // 从环境变量中获取访问凭证。运行本代码示例之前，请确保已设置环境变量OSS_ACCESS_KEY_ID和OSS_ACCESS_KEY_SECRET。
     //EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();
-    private static final String ACCESS_KEY_ID = "LTAI5tEetrvwMTTzz4Vg9QTE";
-    private static final String ACCESS_KEY_SECRET = "VQ2IFthApgkeowt7trSsZGlO15DQMi";
+    private static final String ACCESS_KEY_ID = "1111";
+    private static final String ACCESS_KEY_SECRET = "111111";
     private static final String BUCKET_NAME = "yoshida-academy-management";
 
     public static String uploadFile(String objectName, InputStream in) throws Exception {
